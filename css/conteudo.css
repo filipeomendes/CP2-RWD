@@ -1,0 +1,50 @@
+.conteudo h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    font-size: 5rem;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: justify;
+    font-size: 2.2rem;
+    padding: 1rem;
+    padding-bottom: 8rem;
+}
+
+.games h1{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.mobile h1{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.tech h1{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.conteudo img{
+    max-width: 100%;
+    display: block;
+    padding-bottom: 5rem;
+}
+
+.games{
+    max-width: 30%;
+}
+
+.mobile{
+    max-width: 30%;
+}
+
+.tech{
+    max-width: 30%;
+}
