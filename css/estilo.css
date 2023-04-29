@@ -46,7 +46,53 @@ footer{
     padding: 2rem;
 }
 
-@media(max-width: 375px){
+
+@media (max-width: 670px){
+    .cabecalho a{
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 600px){
+    .cabecalho a{
+        font-size: 1.8rem;
+    }
+
+    .cabecalho img{
+        width: 10rem;
+    }
+
+}
+
+@media (max-width: 560px){
+    .cabecalho a{
+        font-size: 1.6rem;
+    }
+
+    .social-media img{
+        max-width: 10rem;
+    }
+
+}
+
+@media (max-width: 480px){
+    .cabecalho a{
+        font-size: 1.4rem;
+    }
+
+    .cabecalho img{
+        width: 8rem;
+    }
+
+    .social-media img{
+        max-width: 8rem;
+        padding: 1rem;
+    }
+
+}
+
+@media(max-width: 425px){
     .cabecalho{
         flex-direction: column;
     }
@@ -56,17 +102,66 @@ footer{
     }
 
     .cabecalho a{
-        font-size: 2rem;
-        padding: 10% 0;
+        font-size: 1.4rem;
+        padding: 2rem;
+        text-align: center;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    
+    .cabecalho img{
+        padding-bottom: 2rem;
+    }
+
+    .social-media img{
+        max-width: 6.5rem;
+        padding: 1rem;
     }
 }
 
-@media(max-width: 730px){
+@media (max-width: 735px){
+    .conteudo h2{
+        text-align: center;
+        padding: 2rem;
+        font-size: 4rem;
+    }
+    
     .conteudo-principal{
         flex-direction: column;
-        max-width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .games{
+        max-width: 100%;
+        padding: 2rem;
+    }
+    .mobile{
+        max-width: 100%;
+        padding: 2rem;
+    }
+    .tech{
+        max-width: 100%;
+        padding: 2rem;
+    }
+}
+
+@media(max-width: 345px){
+    .social-media img{
+        max-width: 4rem;
+        padding: 1rem;
+        
+    }
+}
+
+@media(max-width: 300px){
+    .cabecalho a{
+        font-size: 1.0rem;
+    }
+
+    .social-media img{
+        max-width: 4rem;
+        padding: 1rem;
+        
     }
 }
