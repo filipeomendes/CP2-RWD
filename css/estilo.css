@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url(./conteudo.css);
+@import url(./cabecalho.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(68.15deg, #363449 16.62%, #2B293F 85.61%);
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+}
+
+.conteudo-paginas h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    font-size: 5rem;
+}
+
+.conteudo-paginas{
+    padding: 5rem;
+    text-align: justify;
+}
+
+footer{
+    background-color: #353338;
+    color: #fff;
+    padding: 7rem;
+    text-align: center;
+}
+
+.social-media img{
+    max-width: 12rem;
+    padding: 2rem;
+}
+
+@media(max-width: 375px){
+    .cabecalho{
+        flex-direction: column;
+    }
+
+    .cabecalho nav{
+        flex-wrap: nowrap;
+    }
+
+    .cabecalho a{
+        font-size: 2rem;
+        padding: 10% 0;
+    }
+}
+
+@media(max-width: 730px){
+    .conteudo-principal{
+        flex-direction: column;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
